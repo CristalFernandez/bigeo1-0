@@ -1,0 +1,34 @@
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3d5d4b;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  grid-column: 1;
+}
+
+.logo-image {
+  width: 200px;
+  height: 100px;
+}
+
+.footer-contact {
+  grid-column: 2;
+  text-align: right;
+}
+
+.contact-info {
+  margin: 0;
+}
